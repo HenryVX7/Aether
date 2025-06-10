@@ -24,12 +24,12 @@ echo -e " \033[32;5m                                                           \
 KVVERSION="v0.6.3"
 
 # Set the IP addresses of the admin, masters, and workers nodes
-admin=192.168.3.21
-master1=192.168.3.22
-master2=192.168.3.23
-master3=192.168.3.24
-worker1=192.168.3.25
-worker2=192.168.3.26
+admin=192.168.3.30
+master1=192.168.3.31
+master2=192.168.3.32
+master3=192.168.3.33
+worker1=192.168.3.34
+worker2=192.168.3.35
 
 # User of remote machines
 user=henry
