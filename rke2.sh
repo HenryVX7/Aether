@@ -24,12 +24,12 @@ echo -e " \033[32;5m                                                           \
 KVVERSION="v0.6.3"
 
 # Set the IP addresses of the admin, masters, and workers nodes
-admin=192.168.3.30
-master1=192.168.3.31
-master2=192.168.3.32
-master3=192.168.3.33
-worker1=192.168.3.34
-worker2=192.168.3.35
+admin=192.168.29.30
+master1=192.168.29.31
+master2=192.168.29.32
+master3=192.168.29.33
+worker1=192.168.29.34
+worker2=192.168.29.35
 
 # User of remote machines
 user=henry
@@ -38,7 +38,7 @@ user=henry
 interface=eth0
 
 # Set the virtual IP address (VIP)
-vip=192.168.3.50
+vip=192.168.29.50
 
 # Array of all master nodes
 allmasters=($master1 $master2 $master3)
@@ -56,7 +56,7 @@ all=($master1 $master2 $master3 $worker1 $worker2)
 allnomaster1=($master2 $master3 $worker1 $worker2)
 
 #Loadbalancer IP range
-lbrange=192.168.3.60-192.168.3.80
+lbrange=192.168.29.60-192.168.29.80
 
 #ssh certificate name variable
 certName=id_rsa
